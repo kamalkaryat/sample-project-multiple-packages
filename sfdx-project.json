@@ -2,7 +2,11 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "demo-package",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     },
     {
       "path": "my-app"
@@ -12,5 +16,9 @@
     }
   ],
   "namespace": "",
-  "sourceApiVersion": "50.0"
+  "sourceApiVersion": "50.0",
+  "packageAliases": {
+    "demo-package": "0Ho5j000000CarjCAC",
+    "demo-package@0.1.0-1": "04t5j000000dI7RAAU"
+  }
 }

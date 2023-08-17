@@ -1,0 +1,66 @@
+<testsuites>
+<testsuite name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/MyTest.cls" tests="2" errors="2">
+<testcase name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/MyTest.cls">
+<failure message="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/MyTest.cls: 23 Missing ApexDoc @description" type="3">
+3: Missing ApexDoc @description
+Category: Documentation - ApexDoc
+File: /var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/MyTest.cls
+Line: 23
+Column: 15
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/MyTest.cls">
+<failure message="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/MyTest.cls: 28 &#39;system.assert&#39; should have 2 parameters." type="3">
+3: &#39;system.assert&#39; should have 2 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/MyTest.cls
+Line: 28
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls" tests="4" errors="4">
+<testcase name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls">
+<failure message="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls">
+<failure message="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls: 1 The class name &#39;force&#39; doesn&#39;t match &#39;[A-Z][a-zA-Z0-9_]*&#39;" type="1">
+1: The class name &#39;force&#39; doesn&#39;t match &#39;[A-Z][a-zA-Z0-9_]*&#39;
+Category: Code Style - ClassNamingConventions
+File: /var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_codestyle.html#classnamingconventions
+</failure>
+</testcase>
+<testcase name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls">
+<failure message="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls: 2 Avoid empty block statements." type="3">
+3: Avoid empty block statements.
+Category: Error Prone - EmptyStatementBlock
+File: /var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls
+Line: 2
+Column: 12
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_errorprone.html#emptystatementblock
+</failure>
+</testcase>
+<testcase name="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls">
+<failure message="/var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls: 2 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/jenkins_home/workspace/package-pipeline/force-app/main/default/apex/force.cls
+Line: 2
+Column: 12
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
